@@ -3,7 +3,7 @@ const dotenv = require('dotenv');
 const mongoose = require('mongoose');
 dotenv.config();
 
-//import model todo
+//import model CRM
 const crmapp = require('./crmappmodel.js');
 
 const connect = async () => {
